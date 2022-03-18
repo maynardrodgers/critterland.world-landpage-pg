@@ -56,7 +56,7 @@ h3 {
 
 /* Header desktop */
 .header > .desktop {
-    /* display: none; */
+    display: none;
     top: 0px;
 }
 .header > .desktop {
