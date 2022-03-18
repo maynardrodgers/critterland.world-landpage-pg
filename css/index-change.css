@@ -303,11 +303,9 @@ h3 {
     height: 100vh;
 }
 
-
-
 img[class^="homectr_"] {
     position: absolute;
-
+    bottom: 50vh;
     -webkit-transition: 1s all ease;
     -moz-transition: 1s all ease;
     -o-transition: 1s all ease;
@@ -320,7 +318,6 @@ img[class^="homectr_"]:hover {
 .homectr_01 {
     width: 10vw;
     z-index: 8;
-
     -webkit-transform: translateX(12vw);
     -moz-transform: translateX(12vw);
     -o-transform: translateX(12vw);
@@ -902,6 +899,11 @@ img[class^="mobactr_"].inactive.right
     ,.mobactr_04 {
         bottom: 0px;
     }
+
+    img[class^="homectr_"] {
+        bottom: 0px;
+    }
+    
     .mobactr_02
     ,.mobactr_04 {
         display: block;
