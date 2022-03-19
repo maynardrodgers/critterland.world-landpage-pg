@@ -794,6 +794,56 @@ img[class^="mobaIcon_"] {
     max-width: 1000px;
 }
 /**backersPartners*/
+
+/**footer**/
+.body > .body-content > .content-footer {
+    color: white;
+    height: 300px;
+}
+.body > .body-content > .content-footer > .footer-item{
+    margin: 20px;
+    width: 100%;
+    display: inline-block;
+}
+.body > .body-content > .content-footer > .footer-item > .item-head {
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+}
+.body > .body-content > .content-footer > .footer-item > .item-head.main {
+    color: #eec303;
+    border: 2px solid #eec303;    
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.body > .body-content > .content-footer > .footer-item > .item-foot {
+    color: white;
+    font-size: 30px;
+}
+.item-line {
+    border: 2px solid #eec303;
+    width: 40px;
+}
+.features.input {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    float: left;
+}
+.features.input >input {
+    cursor: pointer;
+    outline: none;
+    width: 150px;
+    height: 30px;
+    float: left;
+}
+
+
+/**footer**/
 .pointer {
     cursor: pointer;
 }
@@ -965,6 +1015,16 @@ img[class^="mobactr_"].inactive.right
     
     .body > #home.body-content {
         height: 100vh;
+    }
+
+    .body > .body-content > .content-footer {
+        text-align: left;     
+        margin: 0 auto;
+        width: 1200px;   
+    }
+    .body > .body-content > .content-footer > .footer-item {
+        width: 30%;
+        float:left;
     }
 }
 
