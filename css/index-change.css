@@ -650,17 +650,16 @@ img[class^="mobaIcon_"] {
 
 /*start coinToken*/
 .body > #coinToken.body-content {
-    background-color: #062435;
+    background-color: #0a212f;
     position: relative;
     width: 100%;
     display: block;
-    padding-top:40px;
-    padding-bottom:40px;
 }
 
 .body > .body-content > .content-token{
     margin: 0 auto;
     max-width: 1000px;
+    padding-top: 40px;
 }
 /*end coinToken*/
 
@@ -786,7 +785,7 @@ img[class^="mobaIcon_"] {
     display: block;
     padding-top:40px;
     padding-bottom:40px;
-    height: 600px;
+    height: 500px;
 }
 
 .body > .body-content > .content-backersPartners{
@@ -812,10 +811,7 @@ img[class^="mobaIcon_"] {
     display: inline-block;
 }
 .body > .body-content > .content-footer > .footer-item > .item-head.main {
-    color: #eec303;
-    border: 2px solid #eec303;    
-    border-radius: 5px;
-    padding: 2px 5px;
+
 }
 .body > .body-content > .content-footer > .footer-item > .item-foot {
     color: white;
