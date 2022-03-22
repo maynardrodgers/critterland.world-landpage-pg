@@ -388,18 +388,17 @@ img[class^="homectr_"]:hover {
 
 /*GamePlay*/
 .body > #gamePlay.body-content {
-  /* background-image: url(../img/bg-section3.jpg); */
+  background-image: url(../img/bg-section3.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
   display: block;
-  background-color: #1a1a1a;
 }
 .body > .body-content > .content-gameplay {
-  /* padding-top:40px; */
-  /* padding-bottom:40px; */
+  padding-top:40px;
+  padding-bottom:40px;
 }
 .body > .body-content > .content-gameplay > .gameplay-header{
   margin: 0 auto;
@@ -559,7 +558,7 @@ img[class^="mobactr"] {
 .mobactr_02 {
   width: 15vw;
   z-index: 2;
-  left: 63vw;
+  left: 61vw;
   -webkit-transform: translateX(63vw);
   -moz-transform: translateX(63vw);
   -o-transform: translateX(63vw);
@@ -569,7 +568,7 @@ img[class^="mobactr"] {
 .mobactr_04 {
   width: 29vw;
   z-index: 1;
-  left: 58vw;
+  left: 56vw;
   -webkit-transform: translateX(47vw);
   -moz-transform: translateX(47vw);
   -o-transform: translateX(47vw);
@@ -820,10 +819,8 @@ img[class^="mobaIcon_"] {
   font-size: 30px;
 }
 .item-line {
-  /* border: 2px solid #eec303; */
+  border: 2px solid #eec303;
   width: 40px;
-  background: #eec303;
-  height: 2px;
 }
 .features.input {
   margin-top: 10px;
