@@ -388,7 +388,6 @@ img[class^="homectr_"]:hover {
 
 /*GamePlay*/
 .body > #gamePlay.body-content {
-  background-image: url(../img/bg-section3.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -397,8 +396,7 @@ img[class^="homectr_"]:hover {
   display: block;
 }
 .body > .body-content > .content-gameplay {
-  padding-top:40px;
-  padding-bottom:40px;
+
 }
 .body > .body-content > .content-gameplay > .gameplay-header{
   margin: 0 auto;
